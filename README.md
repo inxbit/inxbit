@@ -1,8 +1,12 @@
+<p align="center">
+  <img src="assets/network-profile-banner.svg" alt="Christian Dassy - networking, automation, BGP everywhere, and terminal tools" width="100%">
+</p>
+
 <h1 align="center">Christian Dassy</h1>
 
 <p align="center">
   Electronic Engineer specializing in telematics, networking, and automation.<br>
-  I build practical tools for terminal workflows, network operations, and infrastructure reliability.
+  Builder of practical tools for terminal workflows, network operations, and infrastructure reliability.
 </p>
 
 <p align="center">
@@ -14,45 +18,48 @@
 
 ---
 
-### Hi, I'm Christian
+### Operator-First Networking
 
 I work at the intersection of network engineering, Unix systems, and automation.
-I like tools that turn noisy operational data into something clear, searchable,
-and repeatable: terminal output, device sessions, logs, release workflows, and
-the small pieces of glue that make infrastructure easier to operate.
+I like turning noisy operational data into something clear, searchable, and
+repeatable: terminal output, device sessions, logs, release workflows, and the
+small pieces of glue that make infrastructure easier to operate.
 
-I am especially passionate about routing protocols, with a soft spot for BGP:
-BGP everywhere, backed by clear policy, useful visibility, and sane operations.
+Routing protocols are where networking gets interesting. I have a soft spot for
+BGP and the discipline around it: BGP everywhere, but backed by clear policy,
+useful visibility, and sane operations.
 
 I care about operational clarity: seeing what changed, understanding why, and
 leaving systems easier to maintain than I found them.
 
-### Featured Work
+```text
+route preference:
+  bgp: everywhere
+  policy: explicit
+  visibility: before heroics
+  tools: boring enough to trust
+```
 
-#### [PrismTTY](https://github.com/inxbit/prismtty)
+### Current Build
 
-Fast terminal output highlighter focused on network devices and Unix systems.
-PrismTTY works as an interactive CLI wrapper or as a stream filter, with
-network-focused profiles, dynamic profile detection, and installable releases
-through Homebrew and Cargo.
+| Project | What it is | Why it matters |
+| --- | --- | --- |
+| [PrismTTY](https://github.com/inxbit/prismtty) | Fast terminal output highlighter for network devices and Unix systems. | Makes dense terminal output easier to scan during real operational work. |
+| [prismtty.com](https://prismtty.com/) | Project site and user-facing documentation. | Keeps installation, usage, and release details easy to find. |
+| [homebrew-tap](https://github.com/inxbit/homebrew-tap) | Homebrew release channel for Inxbit projects. | Keeps CLI tools installable with a normal operator workflow. |
 
 ```sh
 brew install inxbit/tap/prismtty
 ```
 
-Related:
-
-- [prismtty.com](https://prismtty.com/) - project site and user-facing docs
-- [inxbit/homebrew-tap](https://github.com/inxbit/homebrew-tap) - Homebrew release channel for Inxbit projects
-
 ### Focus Areas
 
-- Network automation and device operations
-- Routing protocols, BGP design, and route-policy clarity
-- Rust and Python CLI tooling
-- Terminal UX, PTY behavior, parsing, and output highlighting
-- Fortinet and FortiAnalyzer operational workflows
-- Release packaging, documentation, and operational polish
+- Routing protocols, BGP design, and route-policy clarity.
+- Network automation and device operations.
+- Rust and Python CLI tooling.
+- Terminal UX, PTY behavior, parsing, and output highlighting.
+- Fortinet and FortiAnalyzer operational workflows.
+- Release packaging, documentation, and operational polish.
 
 ### Toolbox
 
@@ -65,8 +72,9 @@ Related:
   <img alt="Homebrew" src="https://img.shields.io/badge/Homebrew-packaging-fbb040?style=flat-square&logo=homebrew&logoColor=111111">
 </p>
 
-### How I Work
+### Operating Bias
 
+- Make the path visible before making it clever.
 - Build small tools that solve real operator problems.
 - Prefer safe defaults, clear documentation, and reproducible workflows.
 - Keep automation readable enough to trust during an incident.

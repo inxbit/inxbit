@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Christian Dassy profile banner</title>
+  <desc id="desc">Network automation profile banner with routing, BGP, terminal tooling, and operational clarity themes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="42%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#042f2e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#38bdf8" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#grid)"/>
+
+  <g opacity="0.22">
+    <circle cx="1060" cy="60" r="210" fill="#22d3ee"/>
+    <circle cx="1020" cy="320" r="180" fill="#34d399"/>
+    <circle cx="720" cy="50" r="160" fill="#7c3aed"/>
+  </g>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M730 218C810 116 930 112 1018 196" stroke="#22d3ee" stroke-opacity="0.55" stroke-width="4"/>
+    <path d="M780 256C850 310 970 286 1038 224" stroke="#34d399" stroke-opacity="0.6" stroke-width="4"/>
+    <path d="M706 156C782 72 918 58 1068 112" stroke="#a78bfa" stroke-opacity="0.5" stroke-width="4"/>
+    <path d="M836 156L914 218L1018 196" stroke="#e2e8f0" stroke-opacity="0.32" stroke-width="2"/>
+    <path d="M836 156L780 256L914 218L1038 224L1018 196L1068 112" stroke="#e2e8f0" stroke-opacity="0.26" stroke-width="2"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <circle cx="706" cy="156" r="9" fill="#22d3ee"/>
+    <circle cx="836" cy="156" r="9" fill="#a78bfa"/>
+    <circle cx="914" cy="218" r="9" fill="#34d399"/>
+    <circle cx="1018" cy="196" r="9" fill="#22d3ee"/>
+    <circle cx="1068" cy="112" r="9" fill="#a78bfa"/>
+    <circle cx="780" cy="256" r="9" fill="#34d399"/>
+    <circle cx="1038" cy="224" r="9" fill="#34d399"/>
+  </g>
+
+  <g font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="22" fill="#94a3b8" opacity="0.62">
+    <text x="1006" y="94">policy</text>
+    <text x="760" y="304">telemetry</text>
+    <text x="990" y="274">ops</text>
+  </g>
+
+  <g transform="translate(64 66)">
+    <rect x="0" y="0" width="468" height="228" rx="18" fill="#020617" fill-opacity="0.72" stroke="#334155"/>
+    <rect x="0" y="0" width="468" height="42" rx="18" fill="#111827" fill-opacity="0.9"/>
+    <circle cx="28" cy="21" r="6" fill="#ef4444"/>
+    <circle cx="50" cy="21" r="6" fill="#f59e0b"/>
+    <circle cx="72" cy="21" r="6" fill="#22c55e"/>
+    <text x="24" y="84" fill="#22d3ee" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="24">$ show bgp summary</text>
+    <text x="24" y="124" fill="#e2e8f0" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="22">routes: clear</text>
+    <text x="24" y="160" fill="#e2e8f0" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="22">policy: visible</text>
+    <text x="24" y="196" fill="#e2e8f0" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="22">tools: operator-first</text>
+  </g>
+
+  <g transform="translate(64 312)">
+    <rect width="180" height="26" rx="13" fill="#22d3ee" fill-opacity="0.14" stroke="#22d3ee" stroke-opacity="0.45"/>
+    <text x="18" y="18" fill="#cffafe" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="14">BGP everywhere</text>
+  </g>
+
+  <text x="548" y="94" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="46" font-weight="700">Christian Dassy</text>
+  <text x="548" y="138" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="24">Networking, automation, and terminal tools</text>
+  <rect x="548" y="166" width="342" height="4" rx="2" fill="url(#accent)"/>
+  <text x="548" y="220" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="25" font-weight="600">Routing clarity. Operational polish.</text>
+  <text x="548" y="258" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="21">Practical systems for people who live in terminals.</text>
+</svg>
