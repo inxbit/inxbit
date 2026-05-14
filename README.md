@@ -19,15 +19,15 @@
 ### Architecture-First Networking
 
 <p align="justify">
-I work at the intersection of network architecture, routing, WAN, Unix systems, and automation. I like turning complex network requirements and noisy technical data into something clear, searchable, and repeatable: terminal output, device sessions, logs, release workflows, and the small pieces of glue that make infrastructure easier to design and maintain.
+I design network architectures where routing, WAN, Unix systems, and automation meet. My work is about turning complex requirements, device output, and day-to-day network signals into something clear enough to reason about, document, test, and improve.
 </p>
 
 <p align="justify">
-Routing protocols are where networking gets interesting. I have a soft spot for BGP and the discipline around it: BGP everywhere, but backed by clear policy, useful visibility, and sane architecture.
+Routing protocols are where networking gets interesting, and BGP is the part I enjoy most: BGP everywhere, but with deliberate policy, useful visibility, resilient WAN design, and architecture that can be explained when it matters.
 </p>
 
 <p align="justify">
-I care about architectural clarity: understanding the path, knowing why a design behaves the way it does, and leaving systems easier to evolve than I found them.
+I care about architectural clarity: understanding the path, knowing why traffic behaves the way it does, and leaving networks easier to operate, troubleshoot, and evolve than I found them.
 </p>
 
 ```text
