@@ -2,8 +2,6 @@
   <img src="assets/network-profile-banner.svg" alt="Christian Dassy - networking, automation, BGP everywhere, and terminal tools" width="100%">
 </p>
 
-<h1 align="center">Christian Dassy</h1>
-
 <p align="center">
   Electronic Engineer specializing in telematics, networking, and automation.<br>
   Builder of practical tools for terminal workflows, network operations, and infrastructure reliability.
