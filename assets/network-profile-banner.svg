@@ -27,34 +27,34 @@
   <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
   <rect width="1200" height="360" rx="28" fill="url(#grid)"/>
 
-  <g opacity="0.22">
-    <circle cx="1060" cy="60" r="210" fill="#22d3ee"/>
-    <circle cx="1020" cy="320" r="180" fill="#34d399"/>
-    <circle cx="720" cy="50" r="160" fill="#7c3aed"/>
+  <g opacity="0.12">
+    <circle cx="1110" cy="42" r="170" fill="#22d3ee"/>
+    <circle cx="1108" cy="326" r="150" fill="#34d399"/>
+    <circle cx="846" cy="22" r="118" fill="#7c3aed"/>
   </g>
 
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M730 218C810 116 930 112 1018 196" stroke="#22d3ee" stroke-opacity="0.55" stroke-width="4"/>
-    <path d="M780 256C850 310 970 286 1038 224" stroke="#34d399" stroke-opacity="0.6" stroke-width="4"/>
-    <path d="M706 156C782 72 918 58 1068 112" stroke="#a78bfa" stroke-opacity="0.5" stroke-width="4"/>
-    <path d="M836 156L914 218L1018 196" stroke="#e2e8f0" stroke-opacity="0.32" stroke-width="2"/>
-    <path d="M836 156L780 256L914 218L1038 224L1018 196L1068 112" stroke="#e2e8f0" stroke-opacity="0.26" stroke-width="2"/>
+    <path d="M792 224C866 128 976 126 1074 198" stroke="#22d3ee" stroke-opacity="0.36" stroke-width="3"/>
+    <path d="M846 262C914 304 1006 290 1096 230" stroke="#34d399" stroke-opacity="0.38" stroke-width="3"/>
+    <path d="M810 170C884 96 1006 86 1120 126" stroke="#a78bfa" stroke-opacity="0.34" stroke-width="3"/>
+    <path d="M920 170L982 224L1074 198" stroke="#e2e8f0" stroke-opacity="0.2" stroke-width="2"/>
+    <path d="M920 170L846 262L982 224L1096 230L1074 198L1120 126" stroke="#e2e8f0" stroke-opacity="0.16" stroke-width="2"/>
   </g>
 
-  <g filter="url(#glow)">
-    <circle cx="706" cy="156" r="9" fill="#22d3ee"/>
-    <circle cx="836" cy="156" r="9" fill="#a78bfa"/>
-    <circle cx="914" cy="218" r="9" fill="#34d399"/>
-    <circle cx="1018" cy="196" r="9" fill="#22d3ee"/>
-    <circle cx="1068" cy="112" r="9" fill="#a78bfa"/>
-    <circle cx="780" cy="256" r="9" fill="#34d399"/>
-    <circle cx="1038" cy="224" r="9" fill="#34d399"/>
+  <g filter="url(#glow)" opacity="0.8">
+    <circle cx="810" cy="170" r="7" fill="#22d3ee"/>
+    <circle cx="920" cy="170" r="7" fill="#a78bfa"/>
+    <circle cx="982" cy="224" r="7" fill="#34d399"/>
+    <circle cx="1074" cy="198" r="7" fill="#22d3ee"/>
+    <circle cx="1120" cy="126" r="7" fill="#a78bfa"/>
+    <circle cx="846" cy="262" r="7" fill="#34d399"/>
+    <circle cx="1096" cy="230" r="7" fill="#34d399"/>
   </g>
 
-  <g font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="22" fill="#94a3b8" opacity="0.62">
-    <text x="1006" y="94">policy</text>
-    <text x="760" y="304">telemetry</text>
-    <text x="990" y="274">ops</text>
+  <g font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="18" fill="#94a3b8" opacity="0.42">
+    <text x="1038" y="102">policy</text>
+    <text x="838" y="304">telemetry</text>
+    <text x="1048" y="276">ops</text>
   </g>
 
   <g transform="translate(64 66)">
