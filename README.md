@@ -8,6 +8,7 @@
 <p align="center">
   <a href="https://www.christiandassy.com"><img alt="Portfolio" src="https://img.shields.io/badge/portfolio-www.christiandassy.com-0f172a?style=flat-square"></a>
   <a href="https://github.com/inxbit/prismtty"><img alt="PrismTTY" src="https://img.shields.io/badge/project-PrismTTY-0891b2?style=flat-square"></a>
+  <img alt="BGP everywhere" src="https://img.shields.io/badge/BGP-everywhere-7c3aed?style=flat-square">
   <a href="https://prismtty.com/"><img alt="PrismTTY website" src="https://img.shields.io/badge/website-prismtty.com-16a34a?style=flat-square"></a>
 </p>
 
@@ -19,6 +20,9 @@ I work at the intersection of network engineering, Unix systems, and automation.
 I like tools that turn noisy operational data into something clear, searchable,
 and repeatable: terminal output, device sessions, logs, release workflows, and
 the small pieces of glue that make infrastructure easier to operate.
+
+I am especially passionate about routing protocols, with a soft spot for BGP:
+BGP everywhere, backed by clear policy, useful visibility, and sane operations.
 
 I care about operational clarity: seeing what changed, understanding why, and
 leaving systems easier to maintain than I found them.
@@ -44,10 +48,11 @@ Related:
 ### Focus Areas
 
 - Network automation and device operations
+- Routing protocols, BGP design, and route-policy clarity
 - Rust and Python CLI tooling
 - Terminal UX, PTY behavior, parsing, and output highlighting
 - Fortinet and FortiAnalyzer operational workflows
-- Release packaging, documentation, and handoff quality
+- Release packaging, documentation, and operational polish
 
 ### Toolbox
 
