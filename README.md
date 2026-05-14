@@ -41,11 +41,14 @@ route preference:
 
 ### Current Build
 
-| Project | What it is | Why it matters |
-| --- | --- | --- |
-| [PrismTTY](https://github.com/inxbit/prismtty) | Fast terminal output highlighter for network devices and Unix systems. | Makes dense terminal output easier to scan during real network engineering work. |
-| [prismtty.com](https://prismtty.com/) | Project site and user-facing documentation. | Keeps installation, usage, and release details easy to find. |
-| [homebrew-tap](https://github.com/inxbit/homebrew-tap) | Homebrew release channel for Inxbit projects. | Keeps CLI tools installable with a repeatable engineering workflow. |
+#### [PrismTTY](https://github.com/inxbit/prismtty)
+
+Fast terminal output highlighting for network devices and Unix systems, built to
+make dense CLI output easier to scan during real network engineering work.
+
+- Dynamic profiles for network-focused terminal sessions.
+- User-facing documentation at [prismtty.com](https://prismtty.com/).
+- Repeatable installs through [Homebrew](https://github.com/inxbit/homebrew-tap) and Cargo.
 
 ```sh
 brew install inxbit/tap/prismtty
@@ -55,9 +58,8 @@ brew install inxbit/tap/prismtty
 
 - WAN architecture, routing design, BGP, and route-policy clarity.
 - Network automation for architecture validation and engineering workflows.
-- Rust and Python CLI tooling.
+- Juniper, Cisco, VeloCloud, Fortinet, and FortiAnalyzer environments.
 - Terminal UX, PTY behavior, parsing, and output highlighting.
-- Fortinet and FortiAnalyzer visibility workflows.
 - Release packaging, documentation, and project polish.
 
 ### Toolbox
