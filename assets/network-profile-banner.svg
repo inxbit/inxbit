@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
   <title id="title">Christian Dassy profile banner</title>
-  <desc id="desc">Network automation profile banner with routing, BGP, terminal tooling, and operational clarity themes.</desc>
+  <desc id="desc">Network architecture profile banner with routing, WAN, BGP, terminal tooling, and design clarity themes.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#020617"/>
@@ -66,7 +66,7 @@
     <text x="24" y="84" fill="#22d3ee" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="24">$ show bgp summary</text>
     <text x="24" y="124" fill="#e2e8f0" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="22">routes: clear</text>
     <text x="24" y="160" fill="#e2e8f0" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="22">policy: visible</text>
-    <text x="24" y="196" fill="#e2e8f0" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="22">tools: operator-first</text>
+    <text x="24" y="196" fill="#e2e8f0" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="22">wan: resilient</text>
   </g>
 
   <g transform="translate(64 312)">
@@ -75,8 +75,8 @@
   </g>
 
   <text x="548" y="94" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="46" font-weight="700">Christian Dassy</text>
-  <text x="548" y="138" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="24">Networking, automation, and terminal tools</text>
+  <text x="548" y="138" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="24">Routing and WAN architecture, automation</text>
   <rect x="548" y="166" width="342" height="4" rx="2" fill="url(#accent)"/>
-  <text x="548" y="220" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="25" font-weight="600">Routing clarity. Operational polish.</text>
-  <text x="548" y="258" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="21">Practical systems for people who live in terminals.</text>
+  <text x="548" y="220" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="25" font-weight="600">Routing clarity. WAN resilience.</text>
+  <text x="548" y="258" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="21">Practical systems for complex networks.</text>
 </svg>

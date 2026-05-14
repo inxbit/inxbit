@@ -1,12 +1,10 @@
 <p align="center">
-  <img src="assets/network-profile-banner.svg" alt="Christian Dassy - networking, automation, BGP everywhere, and terminal tools" width="100%">
+  <img src="assets/network-profile-banner.svg" alt="Christian Dassy - network architecture, routing, WAN, BGP everywhere, and automation" width="100%">
 </p>
 
-<h1 align="center"></h1>
-
 <p align="center">
-  Electronic Engineer specializing in telematics, networking, and automation.<br>
-  Builder of practical tools for terminal workflows, network operations, and infrastructure reliability.
+  Electronic Engineer and Network Architect specializing in routing, WAN, telematics, and automation.<br>
+  Builder of practical tools for network architecture, terminal workflows, and infrastructure reliability.
 </p>
 
 <p align="center">
@@ -18,25 +16,26 @@
 
 ---
 
-### Operator-First Networking
+### Architecture-First Networking
 
-I work at the intersection of network engineering, Unix systems, and automation.
-I like turning noisy operational data into something clear, searchable, and
-repeatable: terminal output, device sessions, logs, release workflows, and the
-small pieces of glue that make infrastructure easier to operate.
+I work at the intersection of network architecture, routing, WAN, Unix systems,
+and automation. I like turning complex network requirements and noisy technical
+data into something clear, searchable, and repeatable: terminal output, device
+sessions, logs, release workflows, and the small pieces of glue that make
+infrastructure easier to design and maintain.
 
 Routing protocols are where networking gets interesting. I have a soft spot for
 BGP and the discipline around it: BGP everywhere, but backed by clear policy,
-useful visibility, and sane operations.
+useful visibility, and sane architecture.
 
-I care about operational clarity: seeing what changed, understanding why, and
-leaving systems easier to maintain than I found them.
+I care about architectural clarity: understanding the path, knowing why a design
+behaves the way it does, and leaving systems easier to evolve than I found them.
 
 ```text
 route preference:
   bgp: everywhere
   policy: explicit
-  visibility: before heroics
+  wan: resilient by design
   tools: boring enough to trust
 ```
 
@@ -44,9 +43,9 @@ route preference:
 
 | Project | What it is | Why it matters |
 | --- | --- | --- |
-| [PrismTTY](https://github.com/inxbit/prismtty) | Fast terminal output highlighter for network devices and Unix systems. | Makes dense terminal output easier to scan during real operational work. |
+| [PrismTTY](https://github.com/inxbit/prismtty) | Fast terminal output highlighter for network devices and Unix systems. | Makes dense terminal output easier to scan during real network engineering work. |
 | [prismtty.com](https://prismtty.com/) | Project site and user-facing documentation. | Keeps installation, usage, and release details easy to find. |
-| [homebrew-tap](https://github.com/inxbit/homebrew-tap) | Homebrew release channel for Inxbit projects. | Keeps CLI tools installable with a normal operator workflow. |
+| [homebrew-tap](https://github.com/inxbit/homebrew-tap) | Homebrew release channel for Inxbit projects. | Keeps CLI tools installable with a repeatable engineering workflow. |
 
 ```sh
 brew install inxbit/tap/prismtty
@@ -54,12 +53,12 @@ brew install inxbit/tap/prismtty
 
 ### Focus Areas
 
-- Routing protocols, BGP design, and route-policy clarity.
-- Network automation and device operations.
+- WAN architecture, routing design, BGP, and route-policy clarity.
+- Network automation for architecture validation and engineering workflows.
 - Rust and Python CLI tooling.
 - Terminal UX, PTY behavior, parsing, and output highlighting.
-- Fortinet and FortiAnalyzer operational workflows.
-- Release packaging, documentation, and operational polish.
+- Fortinet and FortiAnalyzer visibility workflows.
+- Release packaging, documentation, and project polish.
 
 ### Toolbox
 
@@ -67,17 +66,17 @@ brew install inxbit/tap/prismtty
   <img alt="Rust" src="https://img.shields.io/badge/Rust-CLI%20tooling-b7410e?style=flat-square&logo=rust&logoColor=white">
   <img alt="Python" src="https://img.shields.io/badge/Python-automation-3776ab?style=flat-square&logo=python&logoColor=white">
   <img alt="Ansible" src="https://img.shields.io/badge/Ansible-infrastructure-ee0000?style=flat-square&logo=ansible&logoColor=white">
-  <img alt="Shell" src="https://img.shields.io/badge/Shell-operations-4eaa25?style=flat-square&logo=gnubash&logoColor=white">
+  <img alt="Shell" src="https://img.shields.io/badge/Shell-network%20workflows-4eaa25?style=flat-square&logo=gnubash&logoColor=white">
   <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-release%20automation-2088ff?style=flat-square&logo=githubactions&logoColor=white">
   <img alt="Homebrew" src="https://img.shields.io/badge/Homebrew-packaging-fbb040?style=flat-square&logo=homebrew&logoColor=111111">
 </p>
 
-### Operating Bias
+### Architecture Bias
 
 - Make the path visible before making it clever.
-- Build small tools that solve real operator problems.
+- Build small tools that solve real network engineering problems.
 - Prefer safe defaults, clear documentation, and reproducible workflows.
-- Keep automation readable enough to trust during an incident.
+- Keep automation readable enough to trust during changes and incidents.
 - Treat polish as part of reliability, not decoration.
 
 ### Connect
