@@ -10,6 +10,7 @@
 <p align="center">
   <a href="https://www.christiandassy.com"><img alt="Portfolio" src="https://img.shields.io/badge/portfolio-www.christiandassy.com-0f172a?style=flat-square"></a>
   <a href="https://github.com/inxbit/prismtty"><img alt="PrismTTY" src="https://img.shields.io/badge/project-PrismTTY-0891b2?style=flat-square"></a>
+  <a href="https://github.com/inxbit/pinghue"><img alt="PingHue" src="https://img.shields.io/badge/project-PingHue-f97316?style=flat-square"></a>
   <img alt="BGP everywhere" src="https://img.shields.io/badge/BGP-everywhere-7c3aed?style=flat-square">
   <a href="https://prismtty.com/"><img alt="PrismTTY website" src="https://img.shields.io/badge/website-prismtty.com-16a34a?style=flat-square"></a>
 </p>
@@ -52,6 +53,15 @@ make dense CLI output easier to scan during real network engineering work.
 ```sh
 brew install inxbit/tap/prismtty
 ```
+
+#### [PingHue](https://github.com/inxbit/pinghue)
+
+Colored, concurrent ICMP/TCP ping monitoring for the terminal, built for quick
+reachability checks and cleaner visual feedback when watching multiple targets.
+
+- Parallel host checks with terminal-friendly color output.
+- ICMP and TCP modes for practical network validation.
+- Lightweight workflow for troubleshooting paths, reachability, and service availability.
 
 ### Focus Areas
 
