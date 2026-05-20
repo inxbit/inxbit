@@ -63,6 +63,10 @@ reachability checks and cleaner visual feedback when watching multiple targets.
 - ICMP and TCP modes for practical network validation.
 - Lightweight workflow for troubleshooting paths, reachability, and service availability.
 
+```sh
+brew install inxbit/tap/pinghue
+```
+
 ### Focus Areas
 
 - WAN architecture, routing design, BGP, and route-policy clarity.
