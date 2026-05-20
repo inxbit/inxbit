@@ -71,7 +71,7 @@ brew install inxbit/tap/pinghue
 
 - WAN architecture, routing design, BGP, and route-policy clarity.
 - Network automation for architecture validation and engineering workflows.
-- Juniper, Cisco, VeloCloud, Fortinet, and FortiAnalyzer environments.
+- Multi-vendor environments across Juniper, Cisco, VeloCloud, Fortinet, and the platforms real networks accumulate over time.
 - Terminal UX, PTY behavior, parsing, and output highlighting.
 - Release packaging, documentation, and project polish.
 
@@ -89,6 +89,7 @@ brew install inxbit/tap/pinghue
 ### Architecture Bias
 
 - Make the path visible before making it clever.
+- Be the network janitor when needed: clean up stale assumptions, unclear policy, weak visibility, and designs that nobody can explain.
 - Build small tools that solve real network engineering problems.
 - Prefer safe defaults, clear documentation, and reproducible workflows.
 - Keep automation readable enough to trust during changes and incidents.
