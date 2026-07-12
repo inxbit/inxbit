@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="assets/network-profile-banner.svg" alt="Terminal session showing a colorized BGP summary - Christian Dassy, network architect: routing, WAN, BGP everywhere, and automation" width="100%">
+  <img src="assets/network-profile-banner.svg" alt="Terminal session showing a colorized BGP summary - Christian Dassy, senior network architect: routing, WAN, BGP everywhere, and automation" width="100%">
 </p>
 
 <p align="center">
-  Electronic Engineer and Network Architect specializing in routing, WAN, telematics, and automation.<br>
+  Electronic Engineer and Senior Network Architect specializing in routing, WAN, telematics, and automation.<br>
   Builder of practical tools for network architecture, terminal workflows, and infrastructure reliability.
 </p>
 
