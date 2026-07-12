@@ -1,24 +1,73 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
   <title id="title">Christian Dassy profile banner</title>
-  <desc id="desc">Terminal session on a router showing a colorized BGP summary, next to the name Christian Dassy, network architect focused on routing, WAN, BGP, and automation.</desc>
+  <desc id="desc">Animated terminal session on a router: a show bgp summary command types itself, colorized peer rows print, and a best-path route installs next to the name Christian Dassy, network architect focused on routing, WAN, BGP, and automation.</desc>
   <style>
     .t { font-family: "SF Mono", SFMono-Regular, ui-monospace, Menlo, Consolas, "Liberation Mono", monospace; }
-    .cursor { animation: blink 1.2s steps(1) infinite; }
+
+    /* 16s session loop: type -> print -> install -> hold -> clear */
+    .type   { animation: type 16s infinite; }
+    .row-h  { animation: rowh 16s infinite; }
+    .row-1  { animation: row1 16s infinite; }
+    .row-2  { animation: row2 16s infinite; }
+    .row-3  { animation: row3 16s infinite; }
+    .p2     { animation: p2 16s infinite; }
+    .rbox   { animation: rbox 16s infinite; }
+    .rstroke{ animation: rstroke 16s infinite; }
+    .cursor { animation: blink 1.1s steps(1) infinite; }
+    .comet  { animation: comet 4s ease-in-out infinite; }
+    .tagp   { animation: tagp 5s ease-in-out infinite; }
+    .tcur   { animation: tcur 16s infinite; }
+    .bp     { animation: bp 3s ease-in-out infinite; }
+
+    @keyframes type {
+      0%, 4%      { transform: translateX(0); animation-timing-function: steps(16, end); }
+      14%, 96.4%  { transform: translateX(184px); }
+      96.5%, 100% { transform: translateX(0); }
+    }
+    @keyframes tcur { 0%, 14% { opacity: 1; } 14.1%, 100% { opacity: 0; } }
+    @keyframes bp   { 0%, 100% { opacity: 1; } 50% { opacity: 0.45; } }
+    @keyframes rowh { 0%, 16%   { opacity: 0; } 16.1%, 96.4% { opacity: 1; } 96.5%, 100% { opacity: 0; } }
+    @keyframes row1 { 0%, 18.5% { opacity: 0; } 18.6%, 96.4% { opacity: 1; } 96.5%, 100% { opacity: 0; } }
+    @keyframes row2 { 0%, 21%   { opacity: 0; } 21.1%, 96.4% { opacity: 1; } 96.5%, 100% { opacity: 0; } }
+    @keyframes row3 { 0%, 23.5% { opacity: 0; } 23.6%, 96.4% { opacity: 1; } 96.5%, 100% { opacity: 0; } }
+    @keyframes p2   { 0%, 27%   { opacity: 0; } 27.1%, 96.4% { opacity: 1; } 96.5%, 100% { opacity: 0; } }
+    @keyframes rbox {
+      0%, 30%     { opacity: 0; transform: translateY(6px); }
+      32%, 96.4%  { opacity: 1; transform: translateY(0); }
+      96.5%, 100% { opacity: 0; transform: translateY(6px); }
+    }
+    @keyframes rstroke {
+      0%, 32%  { stroke: #3DDC97; }
+      42%, 100%{ stroke: #1D2A3F; }
+    }
     @keyframes blink { 50% { opacity: 0; } }
-    @media (prefers-reduced-motion: reduce) { .cursor { animation: none; } }
+    @keyframes comet {
+      0%        { transform: translateX(-30px); }
+      55%, 100% { transform: translateX(150px); }
+    }
+    @keyframes tagp { 0%, 100% { opacity: 0.55; } 50% { opacity: 0.95; } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .type, .row-h, .row-1, .row-2, .row-3, .p2, .rbox, .rstroke, .cursor, .comet, .tagp, .tcur, .bp { animation: none; }
+      .type { transform: translateX(184px); }
+      .comet, .tcur { opacity: 0; }
+    }
   </style>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0B111E"/>
-      <stop offset="100%" stop-color="#090E18"/>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#D946EF"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
     </linearGradient>
     <clipPath id="frame">
       <rect width="1200" height="360" rx="20"/>
     </clipPath>
+    <clipPath id="rule">
+      <rect x="702" y="168" width="120" height="5"/>
+    </clipPath>
   </defs>
 
   <g clip-path="url(#frame)">
-    <rect width="1200" height="360" fill="url(#bg)"/>
+    <rect width="1200" height="360" fill="#0B111E"/>
 
     <!-- terminal title bar -->
     <rect width="1200" height="48" fill="#101826"/>
@@ -27,17 +76,24 @@
     <circle cx="52" cy="24" r="6.5" fill="#FEBC2E"/>
     <circle cx="74" cy="24" r="6.5" fill="#28C840"/>
     <text class="t" x="600" y="29" text-anchor="middle" font-size="14" fill="#5B6B84">christian@edge-rtr01 — ssh</text>
-    <text class="t" x="1168" y="29" text-anchor="end" font-size="13" letter-spacing="1" fill="#53D8E8" opacity="0.85">BGP everywhere</text>
+    <text class="t tagp" x="1168" y="29" text-anchor="end" font-size="13" letter-spacing="1" fill="#A78BFA">BGP everywhere</text>
 
     <!-- CLI: colorized bgp summary -->
     <g class="t" font-size="19">
-      <text x="36" y="94"><tspan fill="#8FA3BF">christian@edge-rtr01&gt;</tspan><tspan fill="#53D8E8" xml:space="preserve"> show bgp summary</tspan></text>
-      <text x="36" y="132" fill="#5B6B84" xml:space="preserve">Peer           AS     Up/Down     State|PfxRcd</text>
-      <text x="36" y="168" xml:space="preserve"><tspan fill="#53D8E8">10.64.0.1</tspan><tspan fill="#DCE7F5">      64496  312d 04:12  </tspan><tspan fill="#3DDC97">Estab</tspan><tspan fill="#5B6B84">|</tspan><tspan fill="#FFB454">1052k</tspan></text>
-      <text x="36" y="204" xml:space="preserve"><tspan fill="#53D8E8">10.64.0.5</tspan><tspan fill="#DCE7F5">      64497  198d 22:47  </tspan><tspan fill="#3DDC97">Estab</tspan><tspan fill="#5B6B84">|</tspan><tspan fill="#FFB454">1052k</tspan></text>
-      <text x="36" y="240" xml:space="preserve"><tspan fill="#53D8E8">2001:db8::2</tspan><tspan fill="#DCE7F5">    64511   84d 09:31  </tspan><tspan fill="#3DDC97">Estab</tspan><tspan fill="#5B6B84">|</tspan><tspan fill="#FFB454"> 214k</tspan></text>
-      <text x="36" y="300" fill="#8FA3BF">christian@edge-rtr01&gt;</text>
-      <rect class="cursor" x="292" y="283" width="11" height="22" fill="#FFB454"/>
+      <text x="36" y="94" fill="#8FA3BF">christian@edge-rtr01&gt;</text>
+      <text x="284" y="94" fill="#53D8E8">show bgp summary</text>
+      <g class="type">
+        <rect x="284" y="74" width="210" height="28" fill="#0B111E"/>
+        <rect class="tcur" x="284" y="77" width="11" height="22" fill="#FFB454"/>
+      </g>
+      <text class="row-h" x="36" y="132" fill="#5B6B84" xml:space="preserve">Peer           AS     Up/Down     State|PfxRcd</text>
+      <text class="row-1" x="36" y="168" xml:space="preserve"><tspan fill="#53D8E8">10.64.0.1</tspan><tspan fill="#DCE7F5">      64496  312d 04:12  </tspan><tspan fill="#3DDC97">Estab</tspan><tspan fill="#5B6B84">|</tspan><tspan fill="#FFB454">1052k</tspan></text>
+      <text class="row-2" x="36" y="204" xml:space="preserve"><tspan fill="#53D8E8">10.64.0.5</tspan><tspan fill="#DCE7F5">      64497  198d 22:47  </tspan><tspan fill="#3DDC97">Estab</tspan><tspan fill="#5B6B84">|</tspan><tspan fill="#FFB454">1052k</tspan></text>
+      <text class="row-3" x="36" y="240" xml:space="preserve"><tspan fill="#53D8E8">2001:db8::2</tspan><tspan fill="#DCE7F5">    64511   84d 09:31  </tspan><tspan fill="#3DDC97">Estab</tspan><tspan fill="#5B6B84">|</tspan><tspan fill="#FFB454"> 214k</tspan></text>
+      <g class="p2">
+        <text x="36" y="300" fill="#8FA3BF">christian@edge-rtr01&gt;</text>
+        <rect class="cursor" x="292" y="283" width="11" height="22" fill="#FFB454"/>
+      </g>
     </g>
 
     <!-- divider -->
@@ -45,15 +101,20 @@
 
     <!-- identity -->
     <g class="t">
-      <text x="700" y="104" font-size="13" letter-spacing="4" fill="#5B6B84">NETWORK ARCHITECT</text>
+      <text x="700" y="104" font-size="13" letter-spacing="4" fill="#A78BFA" opacity="0.85">NETWORK ARCHITECT</text>
       <text x="700" y="152" font-size="42" font-weight="700" fill="#F2F7FF" letter-spacing="-1">Christian Dassy</text>
-      <rect x="702" y="170" width="120" height="3" rx="1.5" fill="#FFB454"/>
+      <rect x="702" y="170" width="120" height="3" rx="1.5" fill="url(#brand)"/>
+      <g clip-path="url(#rule)">
+        <rect class="comet" x="702" y="170" width="26" height="3" fill="#F2F7FF" opacity="0.9"/>
+      </g>
       <text x="700" y="212" font-size="20" fill="#8FA3BF">routing · WAN · BGP · automation</text>
 
-      <!-- signature: a route entry for himself -->
-      <rect x="700" y="240" width="446" height="76" rx="10" fill="#0E1524" stroke="#1D2A3F"/>
-      <text x="722" y="272" font-size="17" xml:space="preserve"><tspan fill="#3DDC97">*&gt;</tspan><tspan fill="#DCE7F5"> christiandassy.com</tspan></text>
-      <text x="722" y="300" font-size="17" xml:space="preserve"><tspan fill="#DCE7F5">   via github.com/inxbit  </tspan><tspan fill="#FFB454">[best]</tspan></text>
+      <!-- signature: a route entry for himself, installed after the table prints -->
+      <g class="rbox">
+        <rect class="rstroke" x="700" y="240" width="446" height="76" rx="10" fill="#0E1524" stroke="#1D2A3F"/>
+        <text x="722" y="272" font-size="17" xml:space="preserve"><tspan class="bp" fill="#3DDC97">*&gt;</tspan><tspan fill="#DCE7F5"> christiandassy.com</tspan></text>
+        <text x="722" y="300" font-size="17" xml:space="preserve"><tspan fill="#DCE7F5">   via github.com/inxbit  </tspan><tspan fill="#D946EF">[best]</tspan></text>
+      </g>
     </g>
   </g>
 

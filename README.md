@@ -11,7 +11,7 @@
   <a href="https://www.christiandassy.com"><img alt="Portfolio" src="https://img.shields.io/badge/portfolio-christiandassy.com-0b111e?style=flat-square"></a>
   <a href="https://github.com/inxbit/prismtty"><img alt="PrismTTY" src="https://img.shields.io/badge/project-PrismTTY-53d8e8?style=flat-square&labelColor=0b111e"></a>
   <a href="https://github.com/inxbit/pinghue"><img alt="PingHue" src="https://img.shields.io/badge/project-PingHue-ffb454?style=flat-square&labelColor=0b111e"></a>
-  <img alt="BGP everywhere" src="https://img.shields.io/badge/BGP-everywhere-3ddc97?style=flat-square&labelColor=0b111e">
+  <img alt="BGP everywhere" src="https://img.shields.io/badge/BGP-everywhere-7c3aed?style=flat-square&labelColor=0b111e">
 </p>
 
 ---
