@@ -103,7 +103,7 @@
 
     <!-- identity -->
     <g class="t">
-      <text x="700" y="106" font-size="16" font-weight="600" letter-spacing="5" fill="#C4B5FD">SENIOR NETWORK ARCHITECT</text>
+      <text x="700" y="106" font-size="17" font-weight="600" letter-spacing="1.5" fill="#C4B5FD">Senior Network Architect</text>
       <text x="700" y="152" font-size="42" font-weight="700" fill="#F2F7FF" letter-spacing="-1">Christian Dassy</text>
       <rect x="702" y="170" width="120" height="3" rx="1.5" fill="url(#brand)"/>
       <g clip-path="url(#rule)">
