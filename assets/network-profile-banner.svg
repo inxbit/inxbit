@@ -78,7 +78,7 @@
     <circle cx="52" cy="24" r="6.5" fill="#FEBC2E"/>
     <circle cx="74" cy="24" r="6.5" fill="#28C840"/>
     <text class="t" x="600" y="29" text-anchor="middle" font-size="14" fill="#5B6B84">christian@edge-rtr01 — ssh</text>
-    <text class="t tagp" x="1168" y="29" text-anchor="end" font-size="13" letter-spacing="1" fill="#A78BFA">BGP everywhere</text>
+    <text class="t tagp" x="1168" y="29" text-anchor="end" font-size="13" letter-spacing="1" fill="#53D8E8">BGP everywhere</text>
 
     <!-- CLI: colorized bgp summary -->
     <g class="t" font-size="19">
@@ -103,7 +103,7 @@
 
     <!-- identity -->
     <g class="t">
-      <text x="700" y="106" font-size="17" font-weight="600" letter-spacing="1.5" fill="#C4B5FD">Senior Network Architect</text>
+      <text x="700" y="106" font-size="17" font-weight="600" letter-spacing="1.5" fill="#53D8E8">Senior Network Architect</text>
       <text x="700" y="152" font-size="42" font-weight="700" fill="#F2F7FF" letter-spacing="-1">Christian Dassy</text>
       <rect x="702" y="170" width="120" height="3" rx="1.5" fill="url(#brand)"/>
       <g clip-path="url(#rule)">
@@ -115,7 +115,7 @@
       <g class="rbox">
         <rect class="rstroke" x="700" y="240" width="446" height="76" rx="10" fill="#0E1524" stroke="#1D2A3F"/>
         <text x="722" y="272" font-size="17" xml:space="preserve"><tspan class="bp" fill="#3DDC97">*&gt;</tspan><tspan fill="#DCE7F5"> christiandassy.com</tspan></text>
-        <text x="722" y="300" font-size="17" xml:space="preserve"><tspan fill="#DCE7F5">   via github.com/inxbit  </tspan><tspan fill="#D946EF">[best]</tspan></text>
+        <text x="722" y="300" font-size="17" xml:space="preserve"><tspan fill="#DCE7F5">   via github.com/inxbit  </tspan><tspan fill="#3DDC97">[best]</tspan></text>
       </g>
     </g>
   </g>
